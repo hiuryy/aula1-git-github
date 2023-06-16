@@ -1,70 +1,72 @@
 # aula1-git-github
 repositório com fins acadêmicos/ git e github
 
--para criar pasta:
+``-Para criar pasta:``
 
-mdkir nome da pasta
+***mdkir nome-da-pasta***
 
--para acessar pasta
+``-Para acessar pasta``
 
-CD nome-da-pasta
+**CD nome-da-pasta**
 
--para sair de uma pasta:
+``-Para sair de uma pasta:``
 
-CD ..
+***CD ..***
 
--para iniciar repo: 
+``-Para iniciar repo:`` 
 
-git init
-
-
-Listar arquivos e pastar:
-
-LS
+***git init***
 
 
--Criar arquvivo dentro da pasta:
+``-Listar arquivos e pastar:``
 
-echo "# nome-da-pasta" >> arquivo.extensão
+***LS***
 
--para adicionar conteúdo(arquivos)
+``-Criar arquvivo dentro da pasta:``
 
-git add nome-do-arquivo-pasta
+***echo "# nome-da-pasta" >> arquivo.extensão***
 
--para adicionar todos os arquivos/pastas:
+``-para adicionar conteúdo(arquivos)``
 
-git add . git add
+***git add nome-do-arquivo-pasta***
 
--para desfazer um add especificio 
+``-para adicionar todos os arquivos/pastas:``
 
-git reset nome-do-arquivo
+***git add . git add***
 
-para desfazer um add geral:
- git reset
+``-Para desfazer um add especificio`` 
 
--Criar arquivo mais facil
-touch teste.extensão
+***git reset nome-do-arquivo***
 
--Adicionar Commit
+``-Para desfazer um add geral:``
 
-git commit -m "adicionamos pasta aula e arquivo README"
+ ***git reset***
+
+``-Criar arquivo mais facil``
+
+***touch teste.extensão***
+
+``-Adicionar Commit``
+
+***git commit -m "adicionamos pasta aula e arquivo README"***
  
-- para abrir o vs code
-Code . 
+``-Para abrir o vs code``
 
--No vs code para fazer mudanças dentro do git bash sem dar commit(lembrar de deixar no auto save)
+***Code .*** 
 
-git status
+``- NO VS CODE para fazer mudanças dentro do git bash sem dar commit(lembrar de deixar no auto save)``
 
--Retornar  ao ultimo commit, mantendo as alterações feitas nos arquivos 
-git reset --soft HEAD~1
+***git status***
 
-Voltar para o ultimo commit salvo
+``-Retornar  ao ultimo commit, mantendo as alterações feitas nos arquivos``
 
-git reset --hard HEAD~1
+***git reset --soft HEAD~1***
 
+``-Voltar para o ultimo commit salvo``
 
--para adicionar o link do git e sair de master para main
+***git reset --hard HEAD~1***
 
- git remote add origin link
+``-Para adicionar o link do git e sair de master para main``
+
+ ***git remote add origin link***
 
