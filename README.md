@@ -3,7 +3,7 @@ repositório com fins acadêmicos/ git e github
 
 ``-Para criar pasta:``
 
-***mdkir nome-da-pasta***
+***mkdir nome-da-pasta***
 
 ``-Para acessar pasta``
 
